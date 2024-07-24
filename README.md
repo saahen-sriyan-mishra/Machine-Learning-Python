@@ -37,11 +37,6 @@ Random Forest is an ensemble learning method that creates multiple decision tree
 
 ![1 2](https://github.com/user-attachments/assets/5a76680c-9cee-4a70-b129-70109c9cba60)
 
-![1 2](https://github.com/user-attachments/assets/e21909e0-20ad-4c37-bc9e-046829bcb9ab)
-![1 3](https://github.com/user-attachments/assets/bdeac448-6836-486d-aa02-bd502b357cdd)
-![1 4](https://github.com/user-attachments/assets/b64e24b3-375d-4546-94be-7db21bd1bb65)
-![1 5](https://github.com/user-attachments/assets/6df2d2df-386f-4489-8981-2a2b66ab9ca3)
-
 **Reaction to Ham Mail**
 
 ![1 6](https://github.com/user-attachments/assets/26eedb91-0f71-4a7e-9b29-bb4cf5d505c1)
