@@ -13,6 +13,8 @@ To run this project, you'll need to have Python installed along with the followi
 pip install pandas numpy matplotlib scikit-learn tkinter
 ```
 
+![1 21](https://github.com/user-attachments/assets/5c200bae-a4a5-490d-ac4b-76587bc7a286)
+
 ### Algorithms Used
 
 **1. Logistic Regression**
@@ -27,11 +29,9 @@ K-Nearest Neighbors is an instance-based learning algorithm that classifies a me
 **4. Random Forest**
 Random Forest is an ensemble learning method that creates multiple decision trees and combines their outputs to improve classification performance. Each tree is trained on a random subset of the data and features. In this scenario, the Random Forest classifier aggregates the predictions from multiple decision trees to determine whether a message is spam or ham, which usually results in higher accuracy and robustness compared to a single decision tree.
 
+![1 22](https://github.com/user-attachments/assets/904bcfe9-704d-42fb-b990-175e88c99635)
+
 ### usage
-
-**Basic GUI**
-
-![1 1](https://github.com/user-attachments/assets/72de3d00-d6e7-4491-ab50-b35ac946260c)
 
 **Reaction to Spam Mail**
 
@@ -41,6 +41,7 @@ Random Forest is an ensemble learning method that creates multiple decision tree
 ![1 5](https://github.com/user-attachments/assets/6df2d2df-386f-4489-8981-2a2b66ab9ca3)
 
 **Reaction to Ham Mail**
+
 ![1 6](https://github.com/user-attachments/assets/26eedb91-0f71-4a7e-9b29-bb4cf5d505c1)
 ![1 7](https://github.com/user-attachments/assets/94cfbab3-6b70-4b78-99a0-2daf691d686a)
 ![1 8](https://github.com/user-attachments/assets/2658e596-273d-4153-bcd8-d6d4b8c8eee8)
@@ -120,3 +121,7 @@ A function is defined to classify the input email using the selected model and d
 
 5.4 Start the GUI Application
 The GUI application is started, allowing users to interact with it and classify emails.
+
+**Basic GUI**
+
+![1 1](https://github.com/user-attachments/assets/72de3d00-d6e7-4491-ab50-b35ac946260c)
