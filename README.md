@@ -39,10 +39,7 @@ Random Forest is an ensemble learning method that creates multiple decision tree
 
 **Reaction to Ham Mail**
 
-![1 6](https://github.com/user-attachments/assets/26eedb91-0f71-4a7e-9b29-bb4cf5d505c1)
-![1 7](https://github.com/user-attachments/assets/94cfbab3-6b70-4b78-99a0-2daf691d686a)
-![1 8](https://github.com/user-attachments/assets/2658e596-273d-4153-bcd8-d6d4b8c8eee8)
-![1 9](https://github.com/user-attachments/assets/5cc3987e-c229-4038-ba51-63103973bb34)
+![1 3](https://github.com/user-attachments/assets/b89caeae-e482-49b1-99c0-b5374989e32c)
 
 **We can see there are wrong classification in both the cases. This can be made more accurate (Not perfect) with a larger training model. (Very rare to get 100% accuracy)**
 
