@@ -5,13 +5,6 @@
 
 This project demonstrates a spam classification system using various machine learning algorithms in Python. The code includes data preprocessing, model training, evaluation, and a GUI application for user input.
 
-### Installation
-
-To run this project, you'll need to have Python installed along with the following libraries:
-
-```bash
-pip install pandas numpy matplotlib scikit-learn tkinter
-```
 
 ![1 21](https://github.com/user-attachments/assets/5c200bae-a4a5-490d-ac4b-76587bc7a286)
 
@@ -119,3 +112,26 @@ The GUI application is started, allowing users to interact with it and classify 
 **Basic GUI**
 
 ![1 1](https://github.com/user-attachments/assets/72de3d00-d6e7-4491-ab50-b35ac946260c)
+
+
+## 2. Multi Algorithm Stock price prediction (CNN (Convolutional Neural Networks ), LSTM (Long Short-Term Memory), SVM (Support Vector Machine) along-with GBM and xgboost)
+
+This project demonstrates a stock price prediction system using various machine learning algorithms in Python. The code includes data preprocessing, model training, evaluation against actual happenings.
+
+### Algorithms Used
+
+**1. Convolutional Neural Networks (CNN)**
+Convolutional Neural Networks are particularly effective for image and sequence data by leveraging convolutional layers to detect patterns. In stock price prediction, CNNs can be used to analyze temporal patterns in stock price charts by treating time-series data as a sequence of "images" where each "pixel" represents price movements over time. CNNs learn to identify and extract important features like trends and patterns from these sequences, which can then be used to predict future stock prices.
+
+**2. Long Short-Term Memory (LSTM)**
+LSTM networks are a type of Recurrent Neural Network (RNN) designed to handle long-term dependencies in sequential data. In stock price forecasting, LSTMs can model the temporal dynamics of stock prices by remembering past information over long sequences. LSTMs are particularly suited for capturing trends and patterns over time, allowing them to predict future stock prices based on historical data and complex patterns within the time series.
+
+**3. Support Vector Machine (SVM)**
+Support Vector Machines are a classification technique that finds the optimal hyperplane to separate different classes in the feature space. For stock price prediction, SVMs can be used to classify future price movements into categories like "up" or "down" based on historical price features. By finding the best boundary that maximizes the margin between classes, SVMs can make predictions on whether the stock price will increase or decrease.
+
+**4. Gradient Boosting Machine (GBM)**
+Gradient Boosting Machines are an ensemble learning technique that builds models sequentially, where each new model corrects the errors of the previous ones. In stock price prediction, GBMs combine predictions from multiple weak learners (like decision trees) to make accurate forecasts. They focus on minimizing the prediction error by iteratively improving the model based on residuals, making them effective in capturing complex relationships in the data.
+
+**5. XGBoost**
+XGBoost (Extreme Gradient Boosting) is an optimized version of GBM that improves performance through regularization and efficient computation. In stock price forecasting, XGBoost uses gradient boosting to create a robust model by handling large datasets and complex interactions between features. It leverages parallel processing and advanced regularization techniques to enhance the accuracy and efficiency of stock price predictions.
+
