@@ -135,3 +135,49 @@ Gradient Boosting Machines are an ensemble learning technique that builds models
 **5. XGBoost**
 XGBoost (Extreme Gradient Boosting) is an optimized version of GBM that improves performance through regularization and efficient computation. In stock price forecasting, XGBoost uses gradient boosting to create a robust model by handling large datasets and complex interactions between features. It leverages parallel processing and advanced regularization techniques to enhance the accuracy and efficiency of stock price predictions.
 
+
+### Implementation
+
+
+#### 1. Data Loading and Preprocessing
+
+1.1 Import Libraries
+We start by importing the necessary libraries for data manipulation, visualization, and scaling. warnings is used to suppress any warnings that may clutter the output. Essential libraries include pandas for data handling, numpy for numerical operations, and matplotlib.pyplot for plotting.
+
+1.2 Data to Work With
+We load the dataset from a CSV file named GOOGLE STOCKS.csv and inspect the first few rows to understand its structure and contents.
+
+1.3 Data Formatting
+We extract only the relevant columns (date, open, close) and convert the date column to datetime format. The date column is set as the index for better time-series analysis.
+
+1.4 Data Visualization
+We plot the open and close prices to visualize the trends in the stock data.
+
+1.5 Data Preprocessing
+We scale the features using MinMaxScaler to normalize the data between 0 and 1. The dataset is then split into training and testing sets, with 80% of the data used for training and 20% for testing.
+
+#### 2. Model Implementation and Evaluation
+
+2.1 Reshape Data for **CNN** and **LSTM**
+We reshape the data to fit the input requirements for CNN and LSTM models. For CNN, the data is reshaped into a 3D array with dimensions corresponding to (samples, timesteps, features). For LSTM, the data is reshaped into (samples, timesteps, features) with timesteps set to 1.
+
+2.2 Visualize Predictions
+We plot the actual and predicted open prices for both CNN and LSTM models to compare their performance.
+
+
+3.3 Additional Models
+
+**SVR (Support Vector Regression)**
+
+We prepare the data with lag features and use SVR to model and predict stock prices. The SVR model is evaluated using mean squared error.
+
+**GBM (Gradient Boosting Machine)**
+
+The GBM model is trained and evaluated similarly, with predictions compared to actual stock prices.
+
+**XGBoost**
+
+XGBoost is used for prediction, with its performance evaluated using mean squared error.
+
+This process involves setting up different models, evaluating their performance, and comparing their predictions to actual stock prices to determine their effectiveness.
+
