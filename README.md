@@ -113,6 +113,7 @@ The GUI application is started, allowing users to interact with it and classify 
 
 ![1 1](https://github.com/user-attachments/assets/72de3d00-d6e7-4491-ab50-b35ac946260c)
 
+-------------------------------------------------------------------------------------------
 
 ## 2. Multi Algorithm Stock price prediction (CNN (Convolutional Neural Networks ), LSTM (Long Short-Term Memory), SVM (Support Vector Machine) along-with GBM and xgboost)
 
@@ -144,22 +145,49 @@ XGBoost (Extreme Gradient Boosting) is an optimized version of GBM that improves
 1.1 Import Libraries
 We start by importing the necessary libraries for data manipulation, visualization, and scaling. warnings is used to suppress any warnings that may clutter the output. Essential libraries include pandas for data handling, numpy for numerical operations, and matplotlib.pyplot for plotting.
 
+![a1](https://github.com/user-attachments/assets/17ed4df2-7fbf-462f-b12d-03b4735cc8d4)
+
+
 1.2 Data to Work With
 We load the dataset from a CSV file named GOOGLE STOCKS.csv and inspect the first few rows to understand its structure and contents.
+
+![a2](https://github.com/user-attachments/assets/24656325-a3ba-43a0-8fb6-238e1ba18518)
+
 
 1.3 Data Formatting
 We extract only the relevant columns (date, open, close) and convert the date column to datetime format. The date column is set as the index for better time-series analysis.
 
+![a3](https://github.com/user-attachments/assets/2a78b06f-4906-42be-ac1e-09ef4a2e12e1)
+
+
 1.4 Data Visualization
 We plot the open and close prices to visualize the trends in the stock data.
 
+![a4 1](https://github.com/user-attachments/assets/ba5438f4-55b2-43db-a581-ec3fb9b99a3d)
+![a4 2](https://github.com/user-attachments/assets/60b1700f-2ff3-492f-9048-28de4bf6411e)
+
+
 1.5 Data Preprocessing
 We scale the features using MinMaxScaler to normalize the data between 0 and 1. The dataset is then split into training and testing sets, with 80% of the data used for training and 20% for testing.
+
+![a5](https://github.com/user-attachments/assets/dbe9b87b-6856-46e5-a93f-afa05579ada5)
+
 
 #### 2. Model Implementation and Evaluation
 
 2.1 Reshape Data for **CNN** and **LSTM**
 We reshape the data to fit the input requirements for CNN and LSTM models. For CNN, the data is reshaped into a 3D array with dimensions corresponding to (samples, timesteps, features). For LSTM, the data is reshaped into (samples, timesteps, features) with timesteps set to 1.
+
+- **CNN**
+![b1](https://github.com/user-attachments/assets/5cc500fb-825f-49e1-91be-ea2333bd2535)
+
+![b2](https://github.com/user-attachments/assets/c216d8aa-8e78-4afe-bd27-d7a5754c24ab)
+
+- **LSTM**
+![c1](https://github.com/user-attachments/assets/d643a9c8-eb35-48c4-a1d4-4f81ced2bcc3)
+
+![c2](https://github.com/user-attachments/assets/7d419f31-e5fd-4d84-84d9-52d2f6a37f9b)
+
 
 2.2 Visualize Predictions
 We plot the actual and predicted open prices for both CNN and LSTM models to compare their performance.
@@ -167,17 +195,30 @@ We plot the actual and predicted open prices for both CNN and LSTM models to com
 
 3.3 Additional Models
 
+![d1](https://github.com/user-attachments/assets/2afbb821-40ea-4b5c-9146-3d9f3af9bfa4)
+![d2](https://github.com/user-attachments/assets/3edee0c5-be3a-4753-9d14-09800ff9be8c)
+
 **SVR (Support Vector Regression)**
 
 We prepare the data with lag features and use SVR to model and predict stock prices. The SVR model is evaluated using mean squared error.
 
+![d3 1](https://github.com/user-attachments/assets/f1dbc4b8-59c4-4d51-aeb6-8f3e05779ae8)
+
+
 **GBM (Gradient Boosting Machine)**
 
 The GBM model is trained and evaluated similarly, with predictions compared to actual stock prices.
+
+![d3 2](https://github.com/user-attachments/assets/85108d42-bd62-4200-aefc-d6f7fcd43ae7)
+
 
 **XGBoost**
 
 XGBoost is used for prediction, with its performance evaluated using mean squared error.
 
 This process involves setting up different models, evaluating their performance, and comparing their predictions to actual stock prices to determine their effectiveness.
+
+![e1](https://github.com/user-attachments/assets/847542c1-e8e4-485b-9a79-3dcd483864c7)
+![e2](https://github.com/user-attachments/assets/0c637abe-8499-48b8-b074-ca633988b7b9)
+
 
